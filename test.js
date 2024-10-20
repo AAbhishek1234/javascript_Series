@@ -79,3 +79,15 @@
 // console.log("5" / 2);
 
 
+
+
+// console.log(+true);    
+// console.log(+false);  
+// console.log(+"5");     
+// console.log(+null);   
+
+
+// ternary operator
+// let age=10;
+// let value = (age>18)?'yes':'no'
+// console.log(value);
