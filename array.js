@@ -103,3 +103,73 @@ console.log(store)//[ 'haridwar', 'ganagaji', 'rameshwaram' ]
 
 
 */
+
+// const greet =()=>{
+// console.log("hello")
+// }
+// greet()
+
+
+// const greet = (a,b)=> a+b;
+// console.log(greet(3,2))
+
+
+/*
+REVERSE AN ARRAY
+
+let arr=[1,2,3,4,5,6];
+arr.reverse()
+console.log(arr)//[ 6, 5, 4, 3, 2, 1 ]
+
+
+
+SORT AN ARRAY
+
+let array = [5,3,6,2,9,1]
+array.sort()
+console.log(array)//[ 1, 2, 3, 5, 6, 9 ]
+
+
+Find the Largest Element in an Array:
+arr = [10, 20, 30, 50, 5, 60]
+
+let arr = [10, 20, 30, 50, 5, 60]
+let largest =arr[0]
+for(i=0;i<=arr.length;i++ ){
+if(arr[i]>largest){
+largest =arr[i]
+}
+}
+
+console.log(largest)//60
+
+
+Find the Smallest Element in an Array:
+
+arr = [10, 20, 30, 50, 5, 60]
+
+let smaller = arr[0]
+for(let i =0;i<=arr.length;i++){
+if(arr[i]<smaller){
+smaller = arr[i]
+}
+}
+
+console.log(smaller)
+
+
+
+
+
+Find the Second Largest Element in an Array:
+arr = [10, 20, 30, 50, 5, 60]
+
+
+*/
+
+
+
+
+
+
+
