@@ -165,9 +165,68 @@ Find the Second Largest Element in an Array:
 arr = [10, 20, 30, 50, 5, 60]
 
 
+
+
+ find the value exixst or not in array
+ let arr = [1, 2, 3, 4, 5];
+let value = 3;
+let exists = false;
+
+for (let i = 0; i < arr.length; i++) {
+    if (arr[i] === value) {
+        exists = true; 
+        break;  
+    }
+}
+
+console.log(exists); 
+
+
+
+
+
+
+___________________MAP______________________
+it works on return new array and it return same length and work with call back function
+map means gave the new array and work with this 
+
+
+let arr = [1,2,3,4,5]
+let newArr = arr.map((element)=>{
+    return element*2
+    })
+console.log(newArr)//[ 2, 4, 6, 8, 10 ]
+
+
+
+
+_________________FILTER__________________________
+it filter the array according to user condition where as like chay patti or chay 
+it also return new array
+it work with call back function
+
+
+let arr = [56,2,3,44,89,99]
+let newArray = arr.filter((element)=>{
+    return element%2==0
+    })
+console.log(newArray)
+
+
+
+____________________REDUCE_____________________
+ it retuns the single value from an array
+ it is use when we want to single value from array 
+ it also works on the given new array 
+
+
+let array=[2,3,45,60]
+let newArray = array.reduce((accumulator,current )=>{
+    return accumulator+current 
+    })
+console.log(newArray)//110
+
 */
-
-
 
 
 
