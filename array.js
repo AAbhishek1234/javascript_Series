@@ -166,9 +166,9 @@ arr = [10, 20, 30, 50, 5, 60]
 
 
 
-
- find the value exixst or not in array
- let arr = [1, 2, 3, 4, 5];
+    
+find the value exixst or not in array
+let arr = [1, 2, 3, 4, 5];
 let value = 3;
 let exists = false;
 
@@ -225,6 +225,8 @@ let newArray = array.reduce((accumulator,current )=>{
     return accumulator+current 
     })
 console.log(newArray)//110
+
+
 
 */
 
