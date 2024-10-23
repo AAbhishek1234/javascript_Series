@@ -32,6 +32,22 @@ let obj = {
     
     console.log(obj[1])//NGF  [ this is correct way to excess the object ]
 
+let obj= {
+    name:"ram kumar khiladi",
+    age:"55 year",
+    profile:{
+        department:"computer science",
+        location :"faridabad",
+        sector:{
+            secname:"twentytwo"
+        }
+    }
+}
+
+ console.log(obj);
+
+
+
    it we UPDATE the property of any value then try this 
 
 
@@ -104,8 +120,32 @@ let tree = {
     }
     }
     console.log(tree.address[2])//aligarh
+   
     
+
+    ------Function Constructor Object----
+
+
+
+function Student(name,course,age,college){
+    this.name = name;
+    this.course = course;
+    this.age = age;
+    this.college =college;
+}
+let student = new Student("lala","bca",21,"npm");
+student.nationality="indian"//add value in student 
+student.age=22//it is used to update value and you can say edit in your language
+delete student.college//it delete the college from student's object
+console.log(student);
+let stuedent1 = new Student("lol","bba",11,"npm")
+console.log(stuedent1);
+//console.log(student.age);
+
+we create two objects and the difference between this 
+student object //Student { name: 'lala', course: 'bca', age: 22, nationality: 'indian' }
+stuedent1 object //Student { name: 'lol', course: 'bba', age: 11, college: 'npm' }
+     
 
 
 */
-
