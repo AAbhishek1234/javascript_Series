@@ -65,7 +65,7 @@ hello.then((result) => {
 
 //promise fulfilled is output in this .then work with resolve and
 .catch is work with the reject and one left .finally work is not dependent either run or not
-it run always
+it run always one thing is that promise chaining means .then ke andar.then nested .then
 
 
 
