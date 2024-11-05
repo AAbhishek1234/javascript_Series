@@ -145,7 +145,109 @@ console.log(stuedent1);
 we create two objects and the difference between this 
 student object //Student { name: 'lala', course: 'bca', age: 22, nationality: 'indian' }
 stuedent1 object //Student { name: 'lol', course: 'bba', age: 11, college: 'npm' }
-     
 
+OBJECT PROTOTYPE
+function Person (first,second){
+    this.firstName = first;
+    this.secondName = second;
+    }
+    Person.prototype.gender = "Male"
+    const person1 = new Person ("Elon","Musk")
+    const person2 = new Person("Bill","Gates")
+    console.log(person1.gender)
+    console.log(person2)
+    this is all about the object prototype it inherit the property the object main object 
+
+
+    now we use the function with prototype
+    function Person (first,second){
+    this.firstName = first;
+    this.secondName = second;
+    }
+    Person.prototype.getfullname = function(){
+    retun this.firstName +""+this.secondName
+    };
+
+
+    const person1 = new Person ("Elon","Musk")
+    const person2 = new Person("Bill","Gates")
+    console.log(person1)
+
+
+
+
+
+    this is from method where we can use the function 
+    function Person (first,second){
+    this.firstName = first;
+    this.secondName = second;
+    }
+    Person.prototype.getfullname = function(){
+    return this.firstName +""+this.secondName
+    };
+
+
+    const person1 = new Person ("Elon","Musk")
+    const person2 = new Person("Bill","Gates")
+    console.log(person2)
 
 */
+
+
+
+
+
+
+
+//constructor object
+
+
+// function Person(name ,age,address){
+// this.firstname = name;
+// this.age=age;
+// this.address = address;
+// }
+// let person1 = new Person("Vansh",21,"delhi");
+// person1.profile = "web developer"
+// person1.address = "faridabad"
+// delete person1.age;
+// console.log(person1);\
+
+
+
+// function Person(name ,age,address){
+//  this.firstname = name;
+//  this.age=age;
+//  this.address = address;
+ 
+// }
+// Person.prototype.gender = "Male"
+// let person1 = new Person("Vansh",21,"delhi");
+// console.log(person1)
+
+
+
+
+
+
+
+
+
+// const person = {};
+
+// person.firstName = "John";
+// person.lastName = "Doe";
+// person.age = 50;
+// person.eyeColor = "blue"; 
+
+// console.log(person.age);
+
+
+
+
+// const person = new Object();
+// person.firstName = "John";
+// person.lastName = "Doe";
+// person.age = 50;
+// person.eyeColor = "blue"; 
+// console.log(person);
