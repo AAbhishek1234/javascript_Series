@@ -32,6 +32,44 @@ it show the output is abhishek Rawat but show error  Uncaught (in promise) Refer
 
 
 
+-----------------new example ---------------
+let promise = new Promise((resolve,reject)=>{
+    let success = true;
+    if(success){
+    resolve("promise fulfilled")
+    }
+    else
+    {
+    reject("promise is not fulfilled")
+    }
+    })
+
+
+    -----------------example with then and catch 
+   let hello = new Promise((resolve, reject) => {
+    let success = false;
+    if (success) {
+        resolve("promise fulfilled");
+    } else {
+        reject("promise is not fulfilled");
+    }
+});
+
+hello.then((result) => {
+    console.log(result); 
+}).catch((error) => {
+    console.log(error); 
+}).finally((message )=>{
+    console.log("i am always run ")
+    })
+
+//promise fulfilled is output in this .then work with resolve and
+.catch is work with the reject and one left .finally work is not dependent either run or not
+it run always
+
+
+
+
 
 
 */
