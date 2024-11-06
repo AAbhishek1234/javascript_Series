@@ -69,7 +69,10 @@ it run always one thing is that promise chaining means .then ke andar.then neste
 
 
 
-
+In promises we also use of async and await to write code clean and eaisly fid debugging 
+as like  async is used to handle tasks and await is used to handle task like when this line 
+is not excuted then it does not move to next line await like wait for the complete task as 
+like syncronous 
 
 
 */
