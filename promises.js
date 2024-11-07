@@ -74,6 +74,9 @@ as like  async is used to handle tasks and await is used to handle task like whe
 is not excuted then it does not move to next line await like wait for the complete task as 
 like syncronous 
 
-
+make a function where i want to multiply any number with 2
+function myfunction(num){
+  return num*2
+}
+console.log(myfunction(5))
 */
-
