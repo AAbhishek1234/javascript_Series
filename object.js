@@ -251,3 +251,6 @@ function Person (first,second){
 // person.age = 50;
 // person.eyeColor = "blue"; 
 // console.log(person);
+
+
+

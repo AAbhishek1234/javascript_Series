@@ -228,6 +228,13 @@ console.log(newArray)//110
 
 
 
+
+
+
+----------------------------ARRAY CONVERT INTO OBJECT------------------
+let arr = ["hello","name","person"];
+let arrobj={...arr}
+console.log(arrobj)//{ '0': 'hello', '1': 'name', '2': 'person' }
 */
 
 
