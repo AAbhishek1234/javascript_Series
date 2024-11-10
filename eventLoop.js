@@ -39,17 +39,21 @@ is done
 
 
 example:
-console.log("a")
-console.log("b")
-setTimeout(myGreeting, 5000);
-console.log("c")
+console.log("a");
+console.log("b");
 
+function myGreeting() {
+  console.log("Hello, this is a delayed message!");
+}
+
+setTimeout(myGreeting, 5000); //  it Call myGreeting after 5 seconds
+
+console.log("c");
 
 //////output:
 a
 b
 c
-mygreeting
-
+Hello, this is a delayed message!
 
 */
