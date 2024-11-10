@@ -37,4 +37,12 @@ shows 30 but it cannot update value and not use of the varoable second time
 
 
 var have globally scope on the other hand let and const have block of scope accessible.
+
+===------=====---ONE Concept occurs=======================------------
+TDZ(temporal dead zone):
+it means let and const were hoisted concept of tdz  it's value exists but cannot accessible
+
+
+
+
 */
