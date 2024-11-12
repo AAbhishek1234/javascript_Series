@@ -235,6 +235,14 @@ console.log(newArray)//110
 let arr = ["hello","name","person"];
 let arrobj={...arr}
 console.log(arrobj)//{ '0': 'hello', '1': 'name', '2': 'person' }
+
+
+============KNOW VALUE AND INDEXING-------
+
+let arr=["ab","cd","ef","gh"]
+arr.forEach((value,index)=>{
+console.log("number:",value,"index:",index)
+})
 */
 
 
